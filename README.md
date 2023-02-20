@@ -31,3 +31,40 @@ ES6 Modules | CommonJS
 - HTTP 
     - Brief Intro
     - Cover in detail later (Next section)
+## NPM Commands
+// npm - global command, comes with node
+// npm --version
+
+### local dependency - use it only in this particular project
+```
+> npm i <packageName>
+```
+### global dependency - use it in any projects
+```
+> npm install -g <packageName>
+> sudo npm install -g <packageName> (mac)
+```
+- package.json - manifest file (stores important info about project/package)
+// manual appoarch (create package.json in the root, create properties etc)
+// npm init (step by step, press enter to skip)
+// npm init -y (everything default)
+### Dev Dependency
+``` 
+> e.g: npm i nodemon -D
+> or npm i nodemon --save-dev
+```
+### Run Command
+``` 
+> npm run nameOfCommand
+```
+### Uninstall Package
+```
+> npm uninstall packageName
+```
+## Upcomming Topics
+- EVENT LOOP, ASYNC PATTERNS, EVENTS EMMITER AND STREAMS
+- MAIN CONCEPTS
+- PRE-BUILT CODE
+## EVENTS
+- Event-Driven Programming
+- Used Heavily in Node.js
